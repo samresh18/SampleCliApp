@@ -1,7 +1,7 @@
 pipeline {
 agent any
 environment {
-dotnet = 'C:\Program Files\dotnet.exe'
+dotnet = 'C:\\Program Files\\dotnet.exe'
 }
 stages {
 stage ('Checkout') {
